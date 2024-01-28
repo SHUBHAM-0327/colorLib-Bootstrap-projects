@@ -470,9 +470,12 @@ a, a:focus, a:hover {
 	  
   }
    
-  .navbar-scrolled   .white-placeholder::placeholder {
+  .navbar-scrolled .white-placeholder::placeholder {
 	  color: black;
+	    border: 2px solid white; 
+	 
+	  
   }
-  .white-placeholder::placeholder {
+  .transparent-bg::placeholder {
 	  color: white;
   }
