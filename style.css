@@ -453,15 +453,26 @@ a, a:focus, a:hover {
  
 .navbar-scrolled {
       background-color: #fff !important;
+	 
     }
 
     .navbar-scrolled .navbar-brand,
-    .navbar-scrolled .navbar-nav .nav-link {
+    .navbar-scrolled .navbar-nav .nav-link  {
       color: black !important;
+	
     }
-    .transparent-bg {
+    .transparent-bg  {
       background-color: transparent !important; /* Use !important to override any existing styles */
       border: 2px solid white;
       border-radius: 50px;
       color: white; /* Optional: Remove border for a cleaner look */
+	 
+	  
+  }
+   
+  .navbar-scrolled   .white-placeholder::placeholder {
+	  color: black;
+  }
+  .white-placeholder::placeholder {
+	  color: white;
   }
